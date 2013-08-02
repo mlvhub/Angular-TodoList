@@ -1,0 +1,43 @@
+input, ul{
+			margin-bottom: 20px;
+		}
+		.done-true{
+			text-decoration: line-through;
+			color: rgba(0,0,0,.4);
+
+		}
+
+		p{
+			display: inline-block;
+		}
+
+		.todo-title{
+			position: absolute;
+			top: -12px;
+			left: 25px;
+		}
+
+		.single-todo{
+			position: relative;
+			width: 250px;
+			background: rgba(0,0,0,.2);
+			border-radius: 5px;
+			height:25px;
+			margin-bottom: 15px;
+			cursor: move;
+		}
+
+		.delete{
+			position: absolute;
+			height: 17px; width: 17px;
+			right: 6px; top: 4px;
+			border-radius: 2px;
+			background: rgba(0,0,0,.4);
+			font-size: 12px;
+			cursor: pointer;
+		}
+		.delete p{
+			position: absolute;
+			top: -11px;
+			left: 4px;
+		}
